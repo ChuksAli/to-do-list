@@ -33,6 +33,7 @@ listContainer.addEventListener("click", function(e){
     }
 }, false);
 //Saving list to local storage
+// localStorage stores data locally in the users browser
 function saveData(){
     localStorage.setItem("data", listContainer.innerHTML);
 }
